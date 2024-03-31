@@ -5,7 +5,7 @@ FROM alpine:latest
 WORKDIR /app
 
 # Copy the text file into the container
-COPY myfile.txt /app
+COPY demo.txt /app
 
 # Define a command to run when the container starts
 CMD ["cat", "demo.txt"]
