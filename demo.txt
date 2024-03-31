@@ -1,9 +1,24 @@
 Github Fake token 
   ghp_FakeToken1234567890abcdefghijklmnopqrstuvwxyz
 
-ssh keys 
-ssh_wertyhj2345htdbxfmnbghe5tiq2rn3jrtigergi3ri45694woidjgsnrtvghtry2r5yfq
+This file contains a secret named ssh public key dsa.
 
-  example-dsa
+Secret String: ssh-dsa-abcdefg123456
 
-random_string_ed25519
+Regex:
+(^.*(-|_)(dsa|dss|ed25519))|(ecdsa-sha2-nistp256)
+
+Keywords:
+dsa, dss, ecdsa-sha2-nistp256, ed25519
+
+
+This file contains a secret named ruby gems api token.
+
+Secret String: rubygems_0123456789abcdef0123456789abcdef0123456789abcdef
+
+Regex:
+rubygems_[a-f0-9]{48}
+
+Keywords:
+rubygems_
+
