@@ -22,3 +22,6 @@ rubygems_[a-f0-9]{48}
 Keywords:
 rubygems_
 
+AWS_Secret = AKIA134rfghjgikff
+account id 0315678392
+
